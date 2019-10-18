@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var rps = ["rock", "paper", "scissors"];
+      var wins = 0;
+      var loses = 0;
+      var tie = 0;
+      for (var i = 1; i < 11; i++) {
+        var userChoice = prompt("Pick Rock, Paper, or Scissors");
+        userChoice = userChoice.toLowerCase();
+
+        // computer choice
+        var computerChoice = Math.floor(Math.random() * 3);
+        computerChoice = rps[computerChoice];
+
+        if (
+          (userChoice === "rock" && computerChoice === "scissors") ||
+          (userChoice === "scissors" && computerChoice === "paper") ||
+          (userChoice === "paper" && computerChoice === "rock")
+        ) {
+          wins++;
+          alert("You Win");
+        } else if (userChoice === computerChoice) {
+          ties++;
+          alert("Its a Tie");
+        } else {
+          alert("you Lose");
+          loses++;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+
+
+#textBox {
+  height: 200px;
+  width: 100%;
+  resize: none;
+}
+
+
+#form {
+  margin-top: 0;
+  width: 100%
+}
+
+input {
+  width: 100%;
+ 
+}
+
+
+input[type=submit] {
+  width: 100px;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;;
+  background-color: #4aaaa5;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  border-color: #45a049;
+}

@@ -1,0 +1,45 @@
+
+.page_content {
+    box-sizing: content-box;
+    height: 500px
+}
+#img1{
+    position: absolute; 
+    margin: 20px;
+    top: 60px;
+    left: 80px;
+}
+
+#img2 {
+    position: absolute;
+    margin: 20px;
+    top: 60px;
+    right: 80px;
+}
+
+
+#img3 {
+    position: absolute;
+    margin: 20px;
+    bottom: 60px;
+    left: 80px;
+}
+
+#img4 {
+    position: absolute;
+    margin: 20px;
+    bottom: 60px;
+    right: 80px;
+}
+
+.text {
+    background: #4aaaa5;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    bottom: 20%;
+    text-align: center;
+    
+
+
+    /* align images to left and right of contentContainer then edjust image size and background to fit */
