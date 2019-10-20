@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Grayson's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="../Portfolio/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../Portfolio/assets/css/style_portfolio.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../about-me-using-bootstrap/assets/css/style.css"
+    />
+  </head>
 
-</head>
-
-<div id="vis">
-  <body>
-    <header>
-        <div class="topnav">        
-          <h1 id="name">Grayson Mechler</h1>
-            <div id="navlink">
-              <a href="index.html">About</a>
-              <a href="portfolio-new.html">Portfolio</a>
-              <a id="contactButton" href="contact.html">Contact</a>
-            </div> <!--/navlink -->
-        </div> <!--/topnav -->
-    </header>
-
-    <div class="contentContainer"> 
-      <section id="subHead">
-          <h2 id="page_heading">Portfolio</h2>
-      </section>
-
-      <div class="page_content">
-        
-        <div class="imgcontainer" id="img1"> <!-- this is the image with text fade in-->
-            <img src="../Portfolio/assets/images/app_layout.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-              <div class="text">WOW</div>
-            </div>
+  <div class="mb-5">
+    <body>
+      <!--navigation header-->
+      <div class="navbar p-0 row justify-content-around border-bottom">
+        <div class="col-md-5 text-center" style="background-color: #4aaaa5">
+          <h1>Grayson Mechler</h1>
         </div>
-
-        <div class="imgcontainer" id="img2">
-            <img src="../Portfolio/assets/images/app_layout.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-              <div class="text">Much awesome</div>
-            </div>
+        <!--nav buttons-->
+        <div class="col-xs-6 offset-xs-3 ">
+          <a class="text-secondary p-1" href="index.html">About</a>
+          <a class="text-secondary p-1" href="portfolio.html">Portfolio</a>
+          <a class="text-secondary p-1" href="contact.html">Contact</a>
         </div>
+      </div>
+      <div class="container mt-5 pt-3 border">
+        <div class="row">
+          <div class="col">
+            <h2 class=" border-bottom">Portfolio</h2>
+          </div>
+          <div class="container">
+            <div class="row pt-4">
+              <div class="col-md-4">
+                <img
+                  src="../about-me-using-bootstrap/assets/images/app_layout.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="../about-me-using-bootstrap/assets/images/app_layout.jpg"
+                  alt=""
+                />
+              </div>
 
-        <div class="imgcontainer" id="img3">
-            <img src="../Portfolio/assets/images/app_layout.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-              <div class="text">PLZ HIRE</div>
+              <div class="row pt-4">
+                <div class="col-md-4">
+                  <img
+                    src="../about-me-using-bootstrap/assets/images/app_layout.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="../about-me-using-bootstrap/assets/images/app_layout.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-
-        <div class="imgcontainer" id="img4">
-            <img src="../Portfolio/assets/images/app_layout.jpg" alt="Avatar" class="image">
-            <div class="overlay">
-              <div class="text">Gr8 Job</div>
-            </div>
-        </div>
-
-      </div> <!--/page_content -->
-    </div>  <!--/Contentcontainer -->
-
-
-  </body>
-    <footer class="footer">
-      <p >Copyright &copy;</p>   
-    </footer>
-</div> <!--/vis -->
+      </div>
+    </body>
+  </div>
 </html>
